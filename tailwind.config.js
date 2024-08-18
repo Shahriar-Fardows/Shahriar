@@ -25,6 +25,7 @@ export default {
         lemon: {
           10: "#2ECA7F",
           20: "#1A2D62",
+          30: "#25A5ED",
         },
       },
       fontFamily: {

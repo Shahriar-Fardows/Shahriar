@@ -29,7 +29,10 @@ const Navbar = () => {
                 <nav  aria-label="main navigation"  className="flex h-[5.5rem] items-stretch justify-between font-medium text-slate-700"  role="navigation" >
                     {/*      <!-- Brand logo --> */}
                     <NavLink to='/' id="logo" aria-label="logo" aria-current="page" className="flex items-center gap-2 whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1" >
-                     <img src={logo} alt="" />
+                     {/* <img src={logo} alt="" /> */}
+
+                        <span className="text-4xl font-bold hover:text-lemon-10 transition duration-300 font-play">Shahriar</span>
+
                     </NavLink>
                     {/*      <!-- Mobile trigger --> */}
                     <button
