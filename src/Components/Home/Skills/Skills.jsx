@@ -5,14 +5,15 @@ import { SiTypescript, SiJsonwebtokens, SiTailwindcss, SiNextdotjs, SiMongodb, S
 
 const Skills = () => {
     return (
-        <section id="skills" className=" h-fit  bg-gradient-to-r from-zinc-50 to-zinc-100 dark:from-stone-900 dark:to-neutral-900 py-10 lg:py-20 ">
+        <section id="skills" className=" h-fit  bg-gradient-to-r from-zinc-50 to-zinc-100 dark:from-stone-900 dark:to-neutral-900 py-10 lg:py-60 ">
             <div className="p-6 container mx-auto">
                 <Fade delay={1e3} cascade damping={1e-1} className='text-center'>
                     <h2 className="text-7xl text-hello-10 font-mono font-bold pb-10 ">Skills </h2>
                     <p className='font-mono text-lemon-20 font-bold pb-10'>Programming Languages, Frameworks, Libraries, Tools, and Technologies I&apos;m working on.</p>
                 </Fade>
-                <Fade delay={1e3} cascade damping={1e-1} >
+                <Fade direction='left' delay={1e3} cascade damping={1e-1} >
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  px-5 md:px-0 gap-10">
+                    <Fade direction='left' delay={1e3} cascade damping={1e-1} >
                         <div className="flex items-center justify-start h-20 rounded-xl text-gray-800 dark:text-zinc-300 bg-gradient-to-l from-white to-zinc-50 dark:bg-gradient-to-l dark:from-stone-900 dark:to-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 select-none group">
                             <span className="-mt-20 ml-6 bg-zinc-50 dark:bg-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 rounded-xl rotate-45 duration-200">
                                 <FaHtml5
@@ -36,7 +37,8 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-
+                        </Fade>
+                        <Fade direction='left' delay={1e3} cascade damping={1e-1} >
                         <div className="flex items-center justify-start h-20 rounded-xl text-gray-800 dark:text-zinc-300 bg-gradient-to-l from-white to-zinc-50 dark:bg-gradient-to-l dark:from-stone-900 dark:to-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 select-none group">
                             <span className="-mt-20 ml-6 bg-zinc-50 dark:bg-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 rounded-xl rotate-45 duration-200">
                                 <FaCss3Alt
@@ -60,7 +62,8 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-
+                        </Fade>
+                        <Fade direction='left' delay={1e3} cascade damping={1e-1} >
                         <div className="flex items-center justify-start h-20 rounded-xl text-gray-800 dark:text-zinc-300 bg-gradient-to-l from-white to-zinc-50 dark:bg-gradient-to-l dark:from-stone-900 dark:to-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 select-none group">
                             <span className="-mt-20 ml-6 bg-zinc-50 dark:bg-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 rounded-xl rotate-45 duration-200">
                                 <FaJs
@@ -84,7 +87,8 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-
+                        </Fade>
+                        <Fade direction='left' delay={1e3} cascade damping={1e-1} >
                         <div className="flex items-center justify-start h-20 rounded-xl text-gray-800 dark:text-zinc-300 bg-gradient-to-l from-white to-zinc-50 dark:bg-gradient-to-l dark:from-stone-900 dark:to-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 select-none group">
                             <span className="-mt-20 ml-6 bg-zinc-50 dark:bg-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 rounded-xl rotate-45 duration-200">
                                 <SiTypescript
@@ -108,7 +112,8 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-
+                        </Fade>
+                        <Fade direction='left' delay={1e3} cascade damping={1e-1} >
                         <div className="flex items-center justify-start h-20 rounded-xl text-gray-800 dark:text-zinc-300 bg-gradient-to-l from-white to-zinc-50 dark:bg-gradient-to-l dark:from-stone-900 dark:to-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 select-none group">
                             <span className="-mt-20 ml-6 bg-zinc-50 dark:bg-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 rounded-xl rotate-45 duration-200">
                                 <FaReact
@@ -132,7 +137,8 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-
+                        </Fade>
+                        <Fade direction='left' delay={1e3} cascade damping={1e-1} >
                         <div className="flex items-center justify-start h-20 rounded-xl text-gray-800 dark:text-zinc-300 bg-gradient-to-l from-white to-zinc-50 dark:bg-gradient-to-l dark:from-stone-900 dark:to-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 select-none group">
                             <span className="-mt-20 ml-6 bg-zinc-50 dark:bg-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 rounded-xl rotate-45 duration-200">
                                 <SiNextdotjs
@@ -156,7 +162,8 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-
+                        </Fade>
+                        <Fade direction='left' delay={1e3} cascade damping={1e-1} >
                         <div className="flex items-center justify-start h-20 rounded-xl text-gray-800 dark:text-zinc-300 bg-gradient-to-l from-white to-zinc-50 dark:bg-gradient-to-l dark:from-stone-900 dark:to-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 select-none group">
                             <span className="-mt-20 ml-6 bg-zinc-50 dark:bg-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 rounded-xl rotate-45 duration-200">
                                 <SiTailwindcss
@@ -180,7 +187,8 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-
+                        </Fade>
+                        <Fade direction='left' delay={1e3} cascade damping={1e-1} >
                         <div className="flex items-center justify-start h-20 rounded-xl text-gray-800 dark:text-zinc-300 bg-gradient-to-l from-white to-zinc-50 dark:bg-gradient-to-l dark:from-stone-900 dark:to-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 select-none group">
                             <span className="-mt-20 ml-6 bg-zinc-50 dark:bg-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 rounded-xl rotate-45 duration-200">
                                 <SiMongodb
@@ -204,7 +212,8 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-
+                        </Fade>
+                        <Fade direction='left' delay={1e3} cascade damping={1e-1} >
                         <div className="flex items-center justify-start h-20 rounded-xl text-gray-800 dark:text-zinc-300 bg-gradient-to-l from-white to-zinc-50 dark:bg-gradient-to-l dark:from-stone-900 dark:to-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 select-none group">
                             <span className="-mt-20 ml-6 bg-zinc-50 dark:bg-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 rounded-xl rotate-45 duration-200">
                                 <FaNodeJs
@@ -228,7 +237,8 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-
+                        </Fade>
+                        <Fade direction='left' delay={1e3} cascade damping={1e-1} >
                         <div className="flex items-center justify-start h-20 rounded-xl text-gray-800 dark:text-zinc-300 bg-gradient-to-l from-white to-zinc-50 dark:bg-gradient-to-l dark:from-stone-900 dark:to-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 select-none group">
                             <span className="-mt-20 ml-6 bg-zinc-50 dark:bg-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 rounded-xl rotate-45 duration-200">
                                 <SiFirebase
@@ -252,7 +262,8 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-
+                        </Fade>
+                        <Fade direction='left' delay={1e3} cascade damping={1e-1} >
                         <div className="flex items-center justify-start h-20 rounded-xl text-gray-800 dark:text-zinc-300 bg-gradient-to-l from-white to-zinc-50 dark:bg-gradient-to-l dark:from-stone-900 dark:to-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 select-none group">
                             <span className="-mt-20 ml-6 bg-zinc-50 dark:bg-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 rounded-xl rotate-45 duration-200">
                                 <SiRedux
@@ -276,7 +287,8 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-
+                        </Fade>
+                        <Fade direction='left' delay={1e3} cascade damping={1e-1} >
                         <div className="flex items-center justify-start h-20 rounded-xl text-gray-800 dark:text-zinc-300 bg-gradient-to-l from-white to-zinc-50 dark:bg-gradient-to-l dark:from-stone-900 dark:to-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 select-none group">
                             <span className="-mt-20 ml-6 bg-zinc-50 dark:bg-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 rounded-xl rotate-45 duration-200">
                                 <SiAstro
@@ -300,7 +312,8 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-
+                        </Fade>
+                        <Fade direction='left' delay={1e3} cascade damping={1e-1} >
                         <div className="flex items-center justify-start h-20 rounded-xl text-gray-800 dark:text-zinc-300 bg-gradient-to-l from-white to-zinc-50 dark:bg-gradient-to-l dark:from-stone-900 dark:to-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 select-none group">
                             <span className="-mt-20 ml-6 bg-zinc-50 dark:bg-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 rounded-xl rotate-45 duration-200">
                                 <SiFramer
@@ -324,7 +337,8 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-
+                        </Fade>
+                        <Fade direction='left' delay={1e3} cascade damping={1e-1} >
                         <div className="flex items-center justify-start h-20 rounded-xl text-gray-800 dark:text-zinc-300 bg-gradient-to-l from-white to-zinc-50 dark:bg-gradient-to-l dark:from-stone-900 dark:to-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 select-none group">
                             <span className="-mt-20 ml-6 bg-zinc-50 dark:bg-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 rounded-xl rotate-45 duration-200">
                                 <SiExpress
@@ -348,6 +362,8 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
+                        </Fade>
+                        <Fade direction='left' delay={1e3} cascade damping={1e-1} >
                         <div className="flex items-center justify-start h-20 rounded-xl text-gray-800 dark:text-zinc-300 bg-gradient-to-l from-white to-zinc-50 dark:bg-gradient-to-l dark:from-stone-900 dark:to-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 select-none group">
                             <span className="-mt-20 ml-6 bg-zinc-50 dark:bg-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 rounded-xl rotate-45 duration-200">
                                 <FaSass
@@ -371,6 +387,8 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
+                        </Fade>
+                        <Fade direction='left' delay={1e3} cascade damping={1e-1} >
                         <div className="flex items-center justify-start h-20 rounded-xl text-gray-800 dark:text-zinc-300 bg-gradient-to-l from-white to-zinc-50 dark:bg-gradient-to-l dark:from-stone-900 dark:to-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 select-none group">
                             <span className="-mt-20 ml-6 bg-zinc-50 dark:bg-neutral-900 ring-1 ring-stone-200 dark:ring-stone-800 rounded-xl rotate-45 duration-200">
                                 <SiJsonwebtokens
@@ -394,6 +412,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
+                        </Fade>
                     </div>
                 </Fade>
             </div>

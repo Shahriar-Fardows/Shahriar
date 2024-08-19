@@ -33,3 +33,15 @@
   @keyframes l7 {
     100% {width: 20px;margin-left:60px;}
   }
+
+
+  .boxBg {
+    margin: 0;
+    padding: 0;
+    
+    width: 100%;
+   
+    background:white;
+    background-image: linear-gradient(#F9F9F9 .1em, transparent .1em), linear-gradient(90deg, #F9F9F9 .1em, transparent .1em);
+    background-size: 3em 3em;
+  }
