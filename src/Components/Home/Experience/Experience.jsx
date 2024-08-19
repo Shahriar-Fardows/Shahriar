@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import img from '../../../assets/Image/img_1.png';
-import { Bounce, Fade, Flip, JackInTheBox, Roll, Rotate, Slide, Zoom } from "react-awesome-reveal";
+import { Fade,  Rotate } from "react-awesome-reveal";
 
 const Experience = () => {
     // Replace the 'startYear' with the year you started coding
@@ -30,7 +30,7 @@ const Experience = () => {
 
 
     return (
-        <div className="h-[100vh] container mx-auto flex flex-wrap-reverse lg:flex-nowrap justify-around items-center px-5   md:px-0 gap-5">
+        <div className=" h-fit container mx-auto flex flex-wrap-reverse lg:flex-nowrap justify-around items-center px-5  md:px-0 py-10 lg:py-60 gap-5">
             <Fade delay={1e3} cascade damping={1e-1}>
                 <div>
                     <div className="flex items-center">
