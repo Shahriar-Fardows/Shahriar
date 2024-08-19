@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import logo from '../../assets/Image/logo.png';
 
 const Navbar = () => {
 
@@ -9,16 +8,16 @@ const Navbar = () => {
 
     const navLinks = <>
         <li role="none" className="flex items-stretch">
-            <NavLink exact to="/" activeClassName="text-blue-700" className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8 font-play">Home</NavLink>
+            <NavLink exact to="/" activeClassName="text-blue-700" className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-hello-10 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8 font-play">Home</NavLink>
         </li>
         <li role="none" className="flex items-stretch">
-            <NavLink to="/about" activeClassName="text-blue-700" className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8 font-play">About</NavLink>
+            <NavLink to="/about" activeClassName="text-blue-700" className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-hello-10 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8 font-play">About</NavLink>
         </li>
         <li role="none" className="flex items-stretch">
-            <NavLink to="/projects" activeClassName="text-blue-700" className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8 font-play">Projects</NavLink>
+            <NavLink to="/projects" activeClassName="text-blue-700" className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-hello-10 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8 font-play">Projects</NavLink>
         </li>
         <li role="none" className="flex items-stretch">
-            <NavLink to="/blog" activeClassName="text-blue-700" className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8 font-play">Blog</NavLink>
+            <NavLink to="/blog" activeClassName="text-blue-700" className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-hello-10 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8 font-play">Blog</NavLink>
         </li>
         
     </>;
@@ -31,7 +30,7 @@ const Navbar = () => {
                     <NavLink to='/' id="logo" aria-label="logo" aria-current="page" className="flex items-center gap-2 whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1" >
                      {/* <img src={logo} alt="" /> */}
 
-                        <span className="text-4xl font-bold hover:text-lemon-10 transition duration-300 font-play">Shahriar</span>
+                        <span className="text-4xl font-bold text-hello-10 hover:text-lemon-20  transition duration-300 font-play">Shahriar</span>
 
                     </NavLink>
                     {/*      <!-- Mobile trigger --> */}
@@ -67,7 +66,7 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                     <div className="ml-auto flex items-center px-6 lg:ml-0 lg:p-0">
-                        <button className="inline-flex h-10 items-center justify-center gap-2 whitespace-nowrap rounded bg-lemon-10 px-5 text-sm font-medium tracking-wide text-white shadow-md shadow-lemon-10 transition duration-300 hover:bg-lemon-20 hover:shadow-sm hover:shadow-lemon-10 focus:bg-emerald-700 focus:shadow-sm focus:shadow-lemon-10 focus-visible:outline-none disabled:cursor-not-allowed disabled:border-lemon-20 disabled:bg-lemon-20 disabled:shadow-none">
+                        <button className="inline-flex h-10 items-center justify-center gap-2 whitespace-nowrap rounded bg-hello-10 px-5 text-sm font-medium tracking-wide text-white shadow-md shadow-hello-10 transition duration-300 hover:bg-lemon-20 hover:shadow-sm hover:shadow-hello-10 focus:bg-hello-10 focus:shadow-sm focus:shadow-lemon-10 focus-visible:outline-none disabled:cursor-not-allowed disabled:border-lemon-20 disabled:bg-lemon-20 disabled:shadow-none">
                             <span className='font-play'>Contact us</span>
                         </button>
                     </div>
