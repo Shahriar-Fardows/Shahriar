@@ -31,7 +31,7 @@ const Experience = () => {
 
     return (
         <div className=" h-fit container mx-auto flex flex-wrap-reverse lg:flex-nowrap justify-around items-center px-5  md:px-0 py-10 lg:py-60 gap-5">
-            <Fade delay={1e3} cascade damping={1e-1}>
+            <Fade delay={0.5e3} cascade damping={1e-1}>
                 <div>
                     <div className="flex items-center">
                         <div>
@@ -41,7 +41,7 @@ const Experience = () => {
                         <p className="text-3xl  font-mono text-lemon-20 ">of Experience as a <br /> Web Designer & Developer</p>
                     </div>
                     <p className="font-mono py-3 text-lemon-20"> With two years of experience in web design and development, I have created <br /> high-quality, user-friendly websites. My focus is on delivering affordable <br /> solutions  without sacrificing quality, and I consistently meet tight <br /> deadlines while  aligning with client expectations.</p>
-                    <Fade delay={1e3} cascade damping={1e-1}>
+                    <Fade delay={0.5e3} cascade damping={1e-1}>
                         <ul>
                             {infoList.map((info, index) => (
                                 <li className="py-3 font-mono leading-loose text-lemon-20" key={index}>
