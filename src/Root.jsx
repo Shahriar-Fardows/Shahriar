@@ -1,14 +1,18 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "./Shared/Navbar/Navbar";
+import { Suspense } from "react";
+import Loading from "./Components/Loading/Loading";
 
 const Root = () => {
     return (
-        <div>
-            <Navbar />
+        <Suspense fallback={Loading}>
             <div>
-                <Outlet />
+                <Navbar />
+                <div>
+                    <Outlet />
+                </div>
             </div>
-        </div>
+        </Suspense>
     );
 };
 
