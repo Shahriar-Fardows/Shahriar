@@ -3,7 +3,7 @@ import { Fade, Roll} from "react-awesome-reveal";
 const Services = () => {
     return (
         <div className=" boxBg h-fit bg-gradient-to-r from-zinc-50 to-zinc-100 dark:from-stone-900 dark:to-neutral-900 ">
-            <div className="container mx-auto py-10 lg:py-60  px-5">
+            <div className="container mx-auto py-10 lg:pt-60  px-5">
                 <Fade delay={0.5e3} cascade damping={1e-1} >
                     <div className="flex justify-between items-center ">
                         <h2 className="text-5xl lg:text-7xl text-hello-10 font-mono font-bold  ">My Services</h2>
