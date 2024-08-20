@@ -7,7 +7,7 @@ const Team = () => {
     console.log(team);
 
     useEffect(() => {
-        fetch('http://localhost:5000/users')
+        fetch('https://shahriar-server.vercel.app/users')
             .then(res => res.json())
             .then(data => {
                 setTeam(data);

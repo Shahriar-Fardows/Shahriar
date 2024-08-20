@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Bounce, Fade } from "react-awesome-reveal";
-import { Link } from "react-router-dom";
 import { FaEye } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
 
@@ -9,7 +9,7 @@ const Projects = () => {
 
     useEffect(() => {
 
-        fetch('http://localhost:5000/projects')
+        fetch('https://shahriar-server.vercel.app/projects')
             .then(res => res.json())
             .then(data => {
                 setProjects(data);
