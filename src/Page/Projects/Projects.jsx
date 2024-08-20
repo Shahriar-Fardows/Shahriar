@@ -16,7 +16,7 @@ const Projects = () => {
             <div className="container mx-auto   py-16 px-5 ">
                 <h3 className=" text-3xl text-center text-lemon-20 font-mono font-bold  ">Things I&rsquo;ve Built that Demonstrate My Skills and Expertise</h3>
 
-                <p className="text-lg text-neutral-600 font-mono dark:text-neutral-300 py-3">Over the years, I've worked on several personal projects that reflect my proficiency in the technologies I've mastered. Below are some of the key projects I'd like to showcase in my portfolio. Each project highlights my ability to create modern, responsive, and dynamic web applications.</p>
+                <p className="text-lg text-neutral-600 font-mono dark:text-neutral-300 py-3">Over the years, I&apos;ve worked on several personal projects that reflect my proficiency in the technologies I&apos;ve mastered. Below are some of the key projects I&apos;d like to showcase in my portfolio. Each project highlights my ability to create modern, responsive, and dynamic web applications.</p>
             </div>
             <Part_1/>
             <Part_2/>
