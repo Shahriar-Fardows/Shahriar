@@ -11,10 +11,11 @@ const Home = () => {
     useSEO({
         title: 'Home | Shahriar Fardows',
         description: 'Shahriar Fardows is a skilled web developer with expertise in web development, mobile development, and creating custom applications.',
-        keywords: 'software development, web development, mobile development, custom applications, Shahriar Fardows , Fardows, Shahriar',
+        keywords: 'Web Developer Portfolio, Professional Web Developer, Front-End Developer Portfolio, Back-End Developer Portfolio, Full Stack Developer Portfolio, MERN Stack Developer, React Developer Portfolio, JavaScript Developer Portfolio, Software Engineer Portfolio, Web Design Portfolio, Web Development Services, Freelance Web Developer, Full Stack Web Developer, Web Developer Shahriar Ferdous, Shahriar Ferdous Portfolio, Portfolio of Web Developer, Web Developer Projects, Modern Web Developer Portfolio, Creative Web Developer Portfolio, Technical Portfolio of Shahriar Ferdous, Software Development, Web Development, Mobile Development, Custom Applications, Shahriar Fardows, Fardows, Shahriar',
         url: 'https://shahriarfardows.netlify.app/',
         image: '../assets/Image/profile_1.png',
     });
+    
     
 
 
