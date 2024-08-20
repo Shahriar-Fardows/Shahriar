@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "./Shared/Navbar/Navbar";
 import { Suspense } from "react";
 import Loading from "./Components/Loading/Loading";
+import Footer from "./Shared/Footer/Footer";
 
 const Root = () => {
     return (
@@ -13,6 +14,7 @@ const Root = () => {
                 <div className="min-h-screen  bg-white z-50 mt-[4.5rem]">
                     <Outlet />
                 </div>
+                <Footer />
             </div>
         </Suspense>
     );

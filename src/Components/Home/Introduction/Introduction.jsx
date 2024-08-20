@@ -4,6 +4,7 @@ import img from '../../../assets/Image/profile_1.png';
 import { FaDownload } from "react-icons/fa6";
 import { FaGithubAlt } from "react-icons/fa";
 import { Fade, Slide } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 const Introduction = () => {
     const [index, setIndex] = useState(0);
 
@@ -28,8 +29,20 @@ const Introduction = () => {
                         <Fade delay={0.5e3} cascade damping={1e-1} className="text-4xl lg:text-6xl font-bold font-play py-7">Shahriar Fardows</Fade>
                         <h3 className="text-2xl font-bold font-play"><TextTransition springConfig={presets.gentle} style={{ margin: "0 4px" }} className="text-hello-10" inline>{TEXTS[index % TEXTS.length]}</TextTransition> Developer</h3>
                         <div className="flex py-7">
-                            <button className="bg-hello-10 hover:bg-white text-white  hover:text-hello-10 border border-hello-10 transition duration-300 px-4 py-3 rounded-l-full font-play flex items-center gap-2"><FaGithubAlt />  GitHub</button>
-                            <button className="hover:bg-hello-30 hover:text-white text-hello-30 border border-hello-30 transition duration-300 px-4 py-3 rounded-r-full font-play flex items-center gap-2"><FaDownload /> Resume</button>
+                            <Link to='https://github.com/Shahriar-Fardows' target="_blank" className="hover:bg-hello-30 hover:text-white text-hello-30 border border-hello-30 transition duration-300 px-4 py-3 rounded-l-full font-play flex items-center gap-2"><FaGithubAlt /> Github</Link>
+                            <Link to="#"
+                                onClick={() => {
+                                    const link = document.createElement('a');
+                                    link.href = '../../../assets/shahriar.pdf';
+                                    link.download = 'shahriar.pdf';
+                                    document.body.appendChild(link);
+                                    link.click();
+                                    document.body.removeChild(link);
+                                }}
+                                className="hover:bg-hello-30 hover:text-white text-hello-30 border border-hello-30 transition duration-300 px-4 py-3 rounded-r-full font-play flex items-center gap-2">
+                                <FaDownload /> Resume
+                            </Link>
+
                         </div>
                     </div>
 
