@@ -5,10 +5,10 @@ import { FaLinkedin } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <footer className="bg-white dark:bg-gray-900">
-            <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-                <div className="md:flex md:justify-between">
-                    <div className="mb-6 md:mb-0">
+        <footer className="bg-white dark:bg-gray-900 border">
+            <div className="mx-auto w-full  p-4 py-6 lg:py-8">
+                <div className="container mx-auto md:flex md:justify-between">
+                    <div className="mb-6 md:mb-0 md:w-1/2">
                         <NavLink to='/' id="logo" aria-label="logo" aria-current="page" className="flex items-center gap-2 whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1" >
                             {/* <img src={logo} alt="" /> */}
 
@@ -16,7 +16,7 @@ const Footer = () => {
 
                         </NavLink>
                         <p className="text-gray-500 font-mono dark:text-gray-400">
-                            Self-driven, focused, and dedicated Web Developer with over 2 years of experience, <br /> including 1+ years in an industrial setting. I am passionate about coding, creating <br /> innovative web solutions, and exploring emerging technologies. Proficient in modern <br /> web technologies and version control systems, I am a committed team player with a <br /> strong dedication to achieving goals. While I take a methodical approach to learning, <br /> I am determined to deliver high-quality results with a focus on excellence.
+                            Self-driven, focused, and dedicated Web Developer with over 2 years of experience,  including 1+ years in an industrial setting. I am passionate about coding, creating  innovative web solutions, and exploring emerging technologies. Proficient in modern  web technologies and version control systems, I am a committed team player with a  strong dedication to achieving goals. While I take a methodical approach to learning,  I am determined to deliver high-quality results with a focus on excellence.
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -70,8 +70,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-                <div className="sm:flex sm:items-center sm:justify-between">
+                <hr className="my-6 border-gray-200  dark:border-gray-700 lg:my-8" />
+                <div className="container mx-auto sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
                         © 2024{' '}
                         
