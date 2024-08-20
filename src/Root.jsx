@@ -14,7 +14,9 @@ const Root = () => {
                 <div className="min-h-screen  bg-white z-50 mt-[4.5rem]">
                     <Outlet />
                 </div>
-                <Footer />
+                <div className="z-10">
+                    <Footer />
+                </div>
             </div>
         </Suspense>
     );
