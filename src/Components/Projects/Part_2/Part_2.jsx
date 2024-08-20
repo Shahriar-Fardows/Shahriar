@@ -22,9 +22,7 @@ const Part_2 = () => {
                 <Fade delay={0.5e3} cascade damping={1e-1} >
                     <div className="flex justify-between items-center ">
                         <h2 className="text-5xl lg:text-7xl text-hello-10 font-mono font-bold  ">Team Members</h2>
-                        <button className="inline-flex h-10 items-center justify-center gap-2 whitespace-nowrap rounded bg-hello-10 px-5 text-sm font-medium tracking-wide text-white shadow-md shadow-hello-10 transition duration-300 hover:bg-lemon-20 hover:shadow-sm hover:shadow-hello-10 focus:bg-hello-10 focus:shadow-sm  focus-visible:outline-none disabled:cursor-not-allowed disabled:border-lemon-20 disabled:bg-lemon-20 disabled:shadow-none">
-                            <span className='font-play'>Show All</span>
-                        </button>
+                        
                     </div>
                 </Fade>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-10 ">
