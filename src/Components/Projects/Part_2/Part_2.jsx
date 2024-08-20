@@ -1,13 +1,12 @@
 import { useEffect, useState } from "react";
 import { Fade } from "react-awesome-reveal";
-import { Link } from "react-router-dom";
 import { CgWebsite } from "react-icons/cg";
-import { FaGithub } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
-const Team = () => {
-
+const Part_2 = () => {
     const [team, setTeam] = useState([]);
+    console.log(team);
 
     useEffect(() => {
         fetch('https://shahriar-server.vercel.app/users')
@@ -30,7 +29,7 @@ const Team = () => {
                 </Fade>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-10 ">
                     {
-                        team.slice(0,3).map(member => (
+                        team.map(member => (
                             <Fade direction='up' delay={0.5e3} cascade damping={1e-1} key={member._id}>
                                 <div className="bg-white h-full  dark:bg-neutral-800 rounded-md shadow-md p-2">
                                     <div className="border h-full p-5">
@@ -67,4 +66,5 @@ const Team = () => {
     );
 };
 
-export default Team;
+
+export default Part_2;

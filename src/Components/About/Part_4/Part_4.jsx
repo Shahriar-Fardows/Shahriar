@@ -5,7 +5,7 @@ import logo from '../../../assets/Image/logoclg.png';
 
 const Part_4 = () => {
     return (
-        <div className="flex flex-wrap-reverse md:flex-nowrap justify-around items-center px-5">
+        <div className=" flex flex-wrap-reverse md:flex-nowrap justify-around items-center px-5">
             <Slide >
                 <img className="w-[40rem] rounded-md   animate-custom-bounce" src={img} alt="" />
             </Slide>

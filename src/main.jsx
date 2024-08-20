@@ -6,6 +6,8 @@ import Home from './Home/Home';
 import Loading from './Components/Loading/Loading';
 import About from './Page/About/About';
 import Projects from './Page/Projects/Projects';
+import Blog from './Page/Blog/Blog';
+import Contact from './Page/Contact/Contact';
 
 function wait(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
       {
         path: "projects",
         element: <Projects />,
+      },
+      {
+        path: "blog",
+        element: <Blog />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
       },
     ],
   },

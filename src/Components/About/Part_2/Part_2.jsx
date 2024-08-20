@@ -5,7 +5,7 @@ import { FaFreeCodeCamp } from "react-icons/fa";
 const Part_2 = () => {
     return (
         <div>
-            <div className="flex flex-wrap-reverse md:flex-nowrap justify-around items-center py-16 lg:py-20">
+            <div className=" flex flex-wrap-reverse md:flex-nowrap justify-around items-center py-16 lg:py-20">
 
                 <div className="px-5 lg:w-1/2">
                    <div className="flex gap-5 items-center">
