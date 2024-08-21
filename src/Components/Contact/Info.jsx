@@ -2,37 +2,58 @@
 const Info = () => {
     return (
         <div className="container mx-auto py-20">
-            <h1 className="mb-4 text-6xl tracking-tight font-play  text-lemon-20 dark:text-white ">Let&apos;s Work Together</h1>
-            <div className="flex justify-around items-center">
-                <div className="contact-section">
-                    <h2>Contact Information</h2>
-                    <p><strong>My Address:</strong><br />
-                        Basaboo, Kalibari, Dhaka-1214, Bangladesh
-                    </p>
-                    <p><strong>Call me:</strong><br />
-                        +8801917621525
-                    </p>
-                    <p><strong>Mail me:</strong><br />
-                        <a href="mailto:shahriarfardows@gmail.com">shahriarfardows@gmail.com</a>
-                    </p>
+            <div>
+                <h1 className="mb-4 px-5 text-4xl lg:text-6xl tracking-tight font-play  text-lemon-20 dark:text-white ">Let&apos;s Work Together</h1>
+                <div className="flex justify-around items-center py-10">
+                    <div className="px-5">
+                        <h5 className="pt-3">My Address:</h5><br />
+                        <h3 className="pb-3 text-lemon-20 font-bold font-play text-2xl md:text-3xl lg:text-4xl">
+                            Basaboo, Kalibari, Dhaka-1214, Bangladesh
+                        </h3>
+                        <hr />
+                        <h5 className="pt-3">Call me:</h5><br />
+                        <h3 className="pb-3 text-lemon-20 font-bold font-play text-2xl md:text-3xl lg:text-4xl">
+                            +8801917621525
+                        </h3>
+                        <hr />
+                        <h5 className="pt-3">Mail me:</h5><br />
+                        <h3 className="pb-3 text-lemon-20 font-bold font-play text-2xl md:text-3xl lg:text-4xl">
+                            <span>shahriarfardows@gmail.com</span>
+                        </h3>
+                        <hr />
+                    </div>
                 </div>
                 <section className="bg-white dark:bg-gray-900">
                     <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-                        <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+                        <p className="mb-4 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
                             To get in touch with us, please fill out this form. We will get back to you shortly.
                         </p>
-                        <form action="#" className="space-y-8">
-                            <div>
-                                <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-                                    Your email
-                                </label>
-                                <input
-                                    type="email"
-                                    id="email"
-                                    className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                                    placeholder="name@flowbite.com"
-                                    required
-                                />
+                        <form action="#" className="space-y-2">
+                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                                <div>
+                                    <label htmlFor="Name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Your Name
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="Name"
+                                        className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                                        placeholder="name@flowbite.com"
+                                        required
+                                    />
+                                </div>
+                                <div>
+                                    <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                                        Your email
+                                    </label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                                        placeholder="name@flowbite.com"
+                                        required
+                                    />
+                                </div>
                             </div>
                             <div>
                                 <label htmlFor="subject" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
@@ -59,9 +80,9 @@ const Info = () => {
                             </div>
                             <button
                                 type="submit"
-                                className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                                className="inline-flex h-10 items-center justify-center gap-2 whitespace-nowrap rounded bg-hello-10 px-5 text-sm font-medium tracking-wide text-white shadow-md shadow-hello-10 transition duration-300 hover:bg-lemon-20 hover:shadow-sm hover:shadow-hello-10 focus:bg-hello-10 focus:shadow-sm focus:shadow-lemon-20 focus-visible:outline-none disabled:cursor-not-allowed disabled:border-lemon-20 disabled:bg-lemon-20 disabled:shadow-none"
                             >
-                                Send message
+                                <span className='font-play'> Send message</span>
                             </button>
                         </form>
                     </div>
