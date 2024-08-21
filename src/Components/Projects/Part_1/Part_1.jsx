@@ -20,7 +20,7 @@ const Part_1 = () => {
     return (
         <div className=" boxBg h-fit bg-gradient-to-r from-zinc-50 to-zinc-100 dark:from-stone-900 dark:to-neutral-900 ">
         <div className="container mx-auto py-10  px-5">
-            <Fade delay={0.5e3} cascade damping={1e-1} >
+            <Fade  >
                 <div className="flex justify-between items-center ">
                     <h2 className="text-5xl lg:text-7xl text-hello-10 font-mono font-bold  ">My Projects</h2>
                    
@@ -29,7 +29,7 @@ const Part_1 = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-10 ">
                 {
                     projects.map(project => (
-                        <Bounce delay={0.5e3} cascade damping={1e-1} key={project._id}>
+                        <Bounce  key={project._id}>
                             <Link to={project.liveLink} target='_blank'>
                             <div className="relative   bg-white  h-auto  dark:bg-neutral-800 rounded-md shadow-md p-5">
                                 <div className=" flex justify-between">

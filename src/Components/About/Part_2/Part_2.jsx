@@ -12,7 +12,7 @@ const Part_2 = () => {
                    <FaFreeCodeCamp className="text-5xl text-hello-10" />
                    <h1 className="text-xl font-bold font-play text-hello-10"> Learning Journey</h1>
                    </div>
-                    <Fade delay={0.5e3} cascade damping={1e-1}>           
+                    <Fade >           
                         <p className="  font-mono py-2">I began my Web Development journey on July 1, 2021, with a course offered by <span className=" font-bold f text-hello-10">Programming Hero</span> . This beginner-level course took me from the basics to a junior-level standard within five months. During this time, I learned the fundamentals of the MERN Stack and completed several projects. Additionally, I participated in a long-term (7-week) team project that introduced me to office culture and professional workflows. My web development learning started there and continues to this day as I explore and expand my knowledge in the field.
                         </p>                
                     </Fade>

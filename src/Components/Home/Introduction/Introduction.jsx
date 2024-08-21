@@ -23,10 +23,10 @@ const Introduction = () => {
     return (
         <div className=" h-[80vh] bg-bgColor-30  px-5">
             <div className="py-10 container mx-auto flex flex-wrap-reverse md:flex-nowrap justify-around items-center">
-                <Fade delay={0.5e3} cascade damping={1e-1}>
+                <Fade >
                     <div className="px-5 md:px-0">
                         <h1 className="text-xl font-bold font-play text-hello-10">Welcome ! I&apos;m</h1>
-                        <Fade delay={0.5e3} cascade damping={1e-1} className="text-4xl lg:text-6xl font-bold font-play py-7">Shahriar Fardows</Fade>
+                        <Fade  className="text-4xl lg:text-6xl font-bold font-play py-7">Shahriar Fardows</Fade>
                         <h3 className="text-2xl font-bold font-play"><TextTransition springConfig={presets.gentle} style={{ margin: "0 4px" }} className="text-hello-10" inline>{TEXTS[index % TEXTS.length]}</TextTransition> Developer</h3>
                         <div className="flex py-7">
                             <Link to='https://github.com/Shahriar-Fardows' target="_blank" className="hover:bg-hello-30 hover:text-white text-hello-30 border border-hello-30 transition duration-300 px-4 py-3 rounded-l-full font-play flex items-center gap-2"><FaGithubAlt /> Github</Link>

@@ -19,7 +19,7 @@ const Part_4 = () => {
                         <img className="h-6" src={logo} alt="" />
                         <h2 className="text-xl font-bold font-play text-lemon-20">Habibullah Bahar College</h2>
                     </div>
-                    <Fade delay={0.5e3} cascade damping={1e-1}>
+                    <Fade >
                         <h3 className="text-2xl py-2 font-bold font-play text-hello-10">HSC 2024 Department of Science</h3>
                         <p className="  font-mono py-2">Academic Year: 2023 - 2024</p>
                         <p className="  font-mono py-2">Shantinagar, Dhaka</p>

@@ -11,11 +11,11 @@ const Part_3 = () => {
                     <FaLaptopCode className="text-5xl text-hello-10" />
                     <h1 className="text-xl font-bold font-play text-hello-10"> Learning Journey</h1>
                 </div>
-                <Fade delay={0.5e3} cascade damping={1e-1}>
+                <Fade >
                     <p className="  font-mono py-2">As a skilled web developer, I specialize in core technologies such as HTML5, CSS3, Bootstrap, and JavaScript (including ES6). I am proficient in modern frameworks and libraries, including  <span className=" font-bold f text-hello-10">React JS, Next.js, TypeScript, and Astro.</span>   My experience extends to back-end development with Node JS, Express JS, and databases like MongoDB and PostgreSQL. I am also well-versed in Firebase Authentication and JWT for secure user management.
                     </p>
                 </Fade>
-                <Fade delay={0.5e3} cascade damping={1e-1}>
+                <Fade >
                     <p className="  font-mono py-2">In addition to my technical skills, I am familiar with  <span className=" font-bold f text-hello-10">React Native, Redux, Stripe, Tailwind CSS, and Material UI</span> React Native, Redux, Stripe, Tailwind CSS, and Material UI. I regularly use tools such as Git, VS Code, Figma, Jira, Vercel, Heroku, Netlify, and Chrome Dev Tools. I am passionate about creating scalable, high-quality web applications and continuously exploring new technologies to stay at the forefront of web development.
                     </p>
                 </Fade>
