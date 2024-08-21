@@ -1,3 +1,5 @@
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Info = () => {
     return (
@@ -8,20 +10,49 @@ const Info = () => {
                     <div className="py-10">
                         <div className="px-5">
                             <h5 className="pt-3">My Address:</h5><br />
-                            <h3 className="pb-3 text-lemon-20 font-bold font-play text-2xl md:text-3xl lg:text-4xl">
-                            Kachari Para, Dakshin Gao, Noya Para Rd, Dhaka 1214
+                            <h3 className="pb-3 text-lemon-20 font-bold font-play text-2xl md:text-3xl ">
+                                Kachari Para, Dakshin Gao, Noya Para Rd, Dhaka 1214
                             </h3>
                             <hr />
                             <h5 className="pt-3">Call me:</h5><br />
-                            <h3 className="pb-3 text-lemon-20 font-bold font-play text-2xl md:text-3xl lg:text-4xl">
+                            <h3 className="pb-3 text-lemon-20 font-bold font-play text-2xl md:text-3xl ">
                                 +8801917621525
                             </h3>
                             <hr />
                             <h5 className="pt-3">Mail me:</h5><br />
-                            <h3 className="pb-3 text-lemon-20 font-bold font-play text-2xl md:text-3xl lg:text-4xl">
+                            <h3 className="pb-3 text-lemon-20 font-bold font-play text-2xl md:text-3xl ">
                                 <span>shahriarfardows@gmail.com</span>
                             </h3>
                             <hr />
+                            <h5 className="pt-3">Add With me:</h5><br />
+                            <div className="flex mt-4 gap-10">
+                                <Link
+                                    to="https://www.facebook.com/profile.php?id=100085970036969"
+                                    className="text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-200"
+                                    target='_blank'
+                                >
+                                    <span className="sr-only">Facebook</span>
+                                    <FaFacebook className="w-8 h-8" />
+                                </Link>
+                                <Link
+                                    to="https://www.linkedin.com/in/shahriar-fardows/ "
+                                    className="text-blue-600 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-200"
+                                    target='_blank'
+                                >
+                                    <span className="sr-only">Linkedin</span>
+                                    <FaLinkedin className="w-8 h-8" />
+                                </Link>
+                                <Link
+                                    to="https://github.com/Shahriar-Fardows"
+                                    className="text-black hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-200"
+                                    target='_blank'
+                                >
+                                    <span className="sr-only">Git Hub</span>
+                                    <FaGithub className="w-8 h-8" />
+                                </Link>
+
+
+                            </div>
                         </div>
                     </div>
                     <section className="bg-white dark:bg-gray-900">
