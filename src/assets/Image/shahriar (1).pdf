@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="google-site-verification"
+      content="nuYsTZ04bfKCizvGTf62T3glRU_ECcYQ4KTbuP5w8lU"
+    />
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Shahriar Fardows - Web Developer" />
+    <meta
+      property="og:description"
+      content="Welcome to Shahriar Fardows's portfolio website. Explore my projects, blog, and contact information."
+    />
+    <meta
+      property="og:image"
+      content="https://shahriarfardows.netlify.app/images/og-image.jpg"
+    />
+    <meta property="og:url" content="https://shahriarfardows.netlify.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Shahriar Fardows" />
+
+    <title>Shahriar Fardows</title>
+    <link
+      rel="shortcut icon"
+      href="/src/assets/Image/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Playwrite+IT+Moderna:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Person Schema Markup -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Shahriar Fardows",
+        "jobTitle": "Web Developer",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Crypzoo"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Basaboo, Kalibari",
+          "addressLocality": "Dhaka",
+          "postalCode": "1214",
+          "addressCountry": "Bangladesh"
+        }
+      }
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-J7JXQTJFLC"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-J7JXQTJFLC");
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx?t=1724258844244"></script>
+  </body>
+</html>

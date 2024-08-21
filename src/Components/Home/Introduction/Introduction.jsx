@@ -33,7 +33,7 @@ const Introduction = () => {
                             <Link to="#"
                                 onClick={() => {
                                     const link = document.createElement('a');
-                                    link.href = '../../../assets/shahriar.pdf';
+                                    link.href = '/public/shahriar.pdf';
                                     link.download = 'shahriar.pdf';
                                     document.body.appendChild(link);
                                     link.click();
