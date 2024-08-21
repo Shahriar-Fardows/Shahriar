@@ -1,3 +1,5 @@
+import Info from "../../Components/Contact/Info";
+import Map from "../../Components/Contact/Map";
 import useSEO from "../../Hook/useSEO";
 
 const Contact = () => {
@@ -11,7 +13,8 @@ const Contact = () => {
     
     return (
         <div>
-            
+            <Info/>
+            <Map/>
         </div>
     );
 };

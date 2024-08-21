@@ -32,14 +32,14 @@ const Part_2 = () => {
                                 <div className="bg-white h-full  dark:bg-neutral-800 rounded-md shadow-md p-2">
                                     <div className="border h-full p-5">
                                         <div className=" flex justify-between">
-                                            <img className=" h-[20rem] object-cover rounded-md " src={member.img} alt="" />
+                                            <img className=" h-[15rem] object-cover rounded-md " src={member.img} alt="" />
                                             <div className="flex gap-2 absolute top-0 right-0  border rounded-tr-lg rounded-bl-lg px-4  ">
                                                 <h2 className="text-base leading-10	 text-lemon-20 font-play font-bold">{member.title}</h2>
                                                
                                             </div>
                                         </div>
                                         <h2 className="text-base leading-10	 text-lemon-20 font-play font-bold">{member.name}</h2>
-                                        <p className="text-lg text-neutral-600 font-mono dark:text-neutral-300 py-3">{member.description}</p>
+                                        <p className="text-lg text-neutral-600 font-mono dark:text-neutral-300 ">{member.description}</p>
                                         <div className="flex gap-5 py-5">
                                             <Link to={member.website} target="_blank" >
                                                 <CgWebsite className="text-2xl text-lemon-20" />

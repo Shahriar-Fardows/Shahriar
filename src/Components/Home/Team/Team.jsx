@@ -32,10 +32,10 @@ const Team = () => {
                     {
                         team.slice(0,3).map(member => (
                             <Fade direction='up' delay={0.5e3} cascade damping={1e-1} key={member._id}>
-                                <div className="bg-white h-full  dark:bg-neutral-800 rounded-md shadow-md p-2">
+                                <div className="bg-white h-full   dark:bg-neutral-800 rounded-md shadow-md p-2">
                                     <div className="border h-full p-5">
                                         <div className=" flex justify-between">
-                                            <img className=" h-[20rem] object-cover rounded-md " src={member.img} alt="" />
+                                            <img className=" h-[15rem] object-cover rounded-md " src={member.img} alt="" />
                                             <div className="flex gap-2 absolute top-0 right-0  border rounded-tr-lg rounded-bl-lg px-4  ">
                                                 <h2 className="text-base leading-10	 text-lemon-20 font-play font-bold">{member.title}</h2>
                                                

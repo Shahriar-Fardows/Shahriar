@@ -21,7 +21,7 @@ const Introduction = () => {
     }, []);
 
     return (
-        <div className=" h-[80vh] bg-bgColor-30 w-full px-5">
+        <div className=" h-[80vh] bg-bgColor-30  px-5">
             <div className="py-10 container mx-auto flex flex-wrap-reverse md:flex-nowrap justify-around items-center">
                 <Fade delay={0.5e3} cascade damping={1e-1}>
                     <div className="px-5 md:px-0">
