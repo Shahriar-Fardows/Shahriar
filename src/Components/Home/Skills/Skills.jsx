@@ -5,7 +5,7 @@ import { SiTypescript, SiJsonwebtokens, SiTailwindcss, SiNextdotjs, SiMongodb, S
 
 const Skills = () => {
     return (
-        <section id="skills" className=" h-fit  bg-gradient-to-r from-zinc-50 to-zinc-100 dark:from-stone-900 dark:to-neutral-900 py-10 lg:py-60 ">
+        <section id="skills" className=" h-fit  bg-gradient-to-r from-zinc-50 to-zinc-100 dark:from-stone-900 dark:to-neutral-900 py-10 lg:py-40 ">
             <div className="p-6 container mx-auto">
                 <Fade delay={0.5e3} cascade damping={1e-1} className='text-center'>
                     <h2 className="text-7xl text-hello-10 font-mono font-bold pb-10 ">Skills </h2>
