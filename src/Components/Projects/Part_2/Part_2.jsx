@@ -29,11 +29,11 @@ const Part_2 = () => {
                     {
                         team.map(member => (
                             <Fade direction='up'  key={member._id}>
-                                <div className="bg-white h-full  dark:bg-neutral-800 rounded-md shadow-md p-2">
+                                <div className="bg-white h-full lg:w-[21vw]  dark:bg-neutral-800 rounded-md shadow-md p-2">
                                     <div className="border h-full p-5">
                                         <div className=" flex justify-between">
                                             <img className=" h-[15rem] object-cover rounded-md " src={member.img} alt="" />
-                                            <div className="flex gap-2 absolute top-0 right-0  border rounded-tr-lg rounded-bl-lg px-4  ">
+                                            <div className="flex gap-2 absolute top-0 right-0 lg:right-20  border rounded-tr-lg rounded-bl-lg px-4  ">
                                                 <h2 className="text-base leading-10	 text-lemon-20 font-play font-bold">{member.title}</h2>
                                                
                                             </div>
