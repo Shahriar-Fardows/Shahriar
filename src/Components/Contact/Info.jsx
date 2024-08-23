@@ -12,33 +12,30 @@ const Info = () => {
         event.preventDefault();
         try {
             await handleSubmit(event);
-            if (state.succeeded) {
-                console.log('Form submitted successfully:', state);
-            }
-        } catch (error) {
-            console.error('Form submission error:', error);
+            if (state.succeeded) {              
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Success!',
+                        text: 'Your message has been sent.',
+                        confirmButtonText: 'OK',
+                    }).then(() => {
+                        // reset form after submission 
+                        
+                    });
+                } 
+                event.target.reset();
+            } catch (error) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Something went wrong! Please try again.',
+                confirmButtonText: 'OK',
+            });
         }
     };
 
     // Display success message if form submission succeeded
-    if (state.succeeded) {
-        Swal.fire({
-            icon: 'success',
-            title: 'Success!',
-            text: 'Your message has been sent.',
-            confirmButtonText: 'OK',
-        }).then(() => {
-            // reset form after submission 
-            event.target.reset();
-        });
-    } else {
-        Swal.fire({
-            icon: 'error',
-            title: 'Oops...',
-            text: 'Something went wrong. Please try again.',
-            confirmButtonText: 'OK',
-        });
-    }
+    
 
     return (
         <div className="container mx-auto py-20 h-[100vh]">
