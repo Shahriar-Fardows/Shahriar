@@ -1,5 +1,5 @@
+import Blog_Soon from "../../Components/Blog/Blog_Soon";
 import useSEO from "../../Hook/useSEO";
-
 const Blog = () => {
     useSEO({
         title: 'Blog | Shahriar Fardows',
@@ -11,7 +11,7 @@ const Blog = () => {
     
     return (
         <div>
-            
+            <Blog_Soon/>
         </div>
     );
 };
