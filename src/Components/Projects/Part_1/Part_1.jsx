@@ -33,8 +33,8 @@ const Part_1 = () => {
                             <Link to={project.liveLink} target='_blank'>
                             <div className="relative   bg-white  h-auto  dark:bg-neutral-800 rounded-md shadow-md p-5">
                                 <div className=" flex justify-between">
-                                    <img className=" h-[50px] object-cover rounded-md" src={project.logo} alt="" />
-                                    <div className="flex gap-2 absolute top-0 right-0  border rounded-tr-lg rounded-bl-lg px-4  ">
+                                    <img className=" h-[50px]  object-cover rounded-md" src={project.logo} alt="" />
+                                    <div className="flex gap-2 absolute top-0 right-0  border rounded-tr-lg rounded-bl-lg px-4  glass ">
                                         <h2 className="text-base leading-10	 text-lemon-20 font-play font-bold">{project.projectType}</h2>
                                         <h3 className="text-base leading-10	  text-lemon-20 font-play font-bold">{project.workingType}</h3>
                                     </div>
