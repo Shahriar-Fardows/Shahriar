@@ -1,4 +1,4 @@
-import Blog_Soon from "../../Components/Blog/Blog_Soon";
+import img from "../../assets/Image/csoon.png";
 import useSEO from "../../Hook/useSEO";
 const Blog = () => {
     useSEO({
@@ -10,8 +10,8 @@ const Blog = () => {
     });
     
     return (
-        <div>
-            <Blog_Soon/>
+        <div className="h-[50px] px-10 py-36 md:px-[12rem] lg:py-[16rem] lg:px-[48rem]">
+           <img  src={img} alt="" />
         </div>
     );
 };
