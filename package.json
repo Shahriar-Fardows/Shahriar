@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@emotion/react": "^11.13.0",
+    "@formspree/react": "^2.5.1",
     "animate.css": "^4.1.1",
     "flowbite": "^2.4.1",
     "flowbite-react": "^0.10.1",
