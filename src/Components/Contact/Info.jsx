@@ -38,7 +38,7 @@ const Info = () => {
     
 
     return (
-        <div className="container mx-auto py-20 h-[100vh]">
+        <div className="container mx-auto py-20 ">
             <div>
                 <h1 className="mb-4 px-5 text-4xl lg:text-6xl tracking-tight font-play text-lemon-20 dark:text-white">Let&apos;s Work Together</h1>
                 <div className="grid grid-cols-1 lg:grid-cols-2 justify-around items-center">

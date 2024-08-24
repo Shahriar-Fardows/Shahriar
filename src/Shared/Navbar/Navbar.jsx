@@ -11,22 +11,22 @@ const Navbar = () => {
     const navLinks = (
         <>
             <li role="none" className="flex items-stretch">
-                <NavLink exact="true" to="/" activeClassName="text-blue-700" className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-hello-10 focus:text-hello-10 focus:outline-none focus-visible:outline-none lg:px-8 font-play" onClick={handleLinkClick}>
+                <NavLink exact="true" to="/" activeClassName="text-blue-700" className="w-full flex items-center gap-2 py-4 transition-colors duration-300 hover:text-hello-10 focus:text-hello-10 focus:outline-none focus-visible:outline-none lg:px-8 font-play" onClick={handleLinkClick}>
                     Home
                 </NavLink>
             </li>
             <li role="none" className="flex items-stretch">
-                <NavLink to="/about" activeClassName="text-blue-700" className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-hello-10 focus:text-hello-10 focus:outline-none focus-visible:outline-none lg:px-8 font-play" onClick={handleLinkClick}>
+                <NavLink to="/about" activeClassName="text-blue-700" className="w-full flex items-center gap-2 py-4 transition-colors duration-300 hover:text-hello-10 focus:text-hello-10 focus:outline-none focus-visible:outline-none lg:px-8 font-play" onClick={handleLinkClick}>
                     About
                 </NavLink>
             </li>
             <li role="none" className="flex items-stretch">
-                <NavLink to="/projects" activeClassName="text-blue-700" className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-hello-10 focus:text-hello-10 focus:outline-none focus-visible:outline-none lg:px-8 font-play" onClick={handleLinkClick}>
+                <NavLink to="/projects" activeClassName="text-blue-700" className="w-full flex items-center gap-2 py-4 transition-colors duration-300 hover:text-hello-10 focus:text-hello-10 focus:outline-none focus-visible:outline-none lg:px-8 font-play" onClick={handleLinkClick}>
                     Projects
                 </NavLink>
             </li>
             <li role="none" className="flex items-stretch">
-                <NavLink to="/blog" activeClassName="text-blue-700" className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-hello-10 focus:text-hello-10 focus:outline-none focus-visible:outline-none lg:px-8 font-play" onClick={handleLinkClick}>
+                <NavLink to="/blog" activeClassName="text-blue-700" className="w-full flex items-center gap-2 py-4 transition-colors duration-300 hover:text-hello-10 focus:text-hello-10 focus:outline-none focus-visible:outline-none lg:px-8 font-play" onClick={handleLinkClick}>
                     Blog
                 </NavLink>
             </li>
