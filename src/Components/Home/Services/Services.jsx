@@ -15,37 +15,37 @@ const Services = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-10">
                     <Roll direction='up' >
-                        <div className="bg-white h-[12rem] dark:bg-neutral-800 rounded-md shadow-md p-5">
+                        <div className="bg-white h-fit lg:h-[12rem] dark:bg-neutral-800 rounded-md shadow-md p-5">
                             <h3 className="text-4xl text-lemon-20 font-play font-bold">Web Design</h3>
                             <p className="text-lg text-neutral-600 font-mono dark:text-neutral-300 py-3">I design user-friendly, visually appealing websites that help you stand out from the competition.</p>
                         </div>
                     </Roll>
                     <Roll >
-                        <div className="bg-white  h-[12rem] dark:bg-neutral-800 rounded-md shadow-md p-5">
+                        <div className="bg-white h-fit lg:h-[12rem] dark:bg-neutral-800 rounded-md shadow-md p-5">
                             <h3 className="text-4xl text-lemon-20 font-play font-bold">Web Development</h3>
                             <p className="text-lg text-neutral-600 font-mono dark:text-neutral-300 py-3">I create high-quality, responsive websites that are easy to navigate and visually appealing.</p>
                         </div>
                     </Roll>
                     <Roll >
-                        <div className="bg-white  h-[12rem] dark:bg-neutral-800 rounded-md shadow-md p-5">
+                        <div className="bg-white  h-fit lg:h-[12rem] dark:bg-neutral-800 rounded-md shadow-md p-5">
                             <h3 className="text-4xl text-lemon-20 font-play font-bold">Bug Fixing</h3>
                             <p className="text-lg text-neutral-600 font-mono dark:text-neutral-300 py-3">Quickly identify and fix issues to keep your website or software running smoothly. </p>
                         </div>
                     </Roll>
                     <Roll >
-                        <div className="bg-white  h-[12rem] dark:bg-neutral-800 rounded-md shadow-md p-5">
+                        <div className="bg-white  h-fit lg:h-[12rem] dark:bg-neutral-800 rounded-md shadow-md p-5">
                             <h3 className="text-4xl text-lemon-20 font-play font-bold">E-Commerce</h3>
                             <p className="text-lg text-neutral-600 font-mono dark:text-neutral-300 py-3">I create custom e-commerce websites that help you sell products and services online.</p>
                         </div>
                     </Roll>
                     <Roll >
-                        <div className="bg-white  h-[12rem] dark:bg-neutral-800 rounded-md shadow-md p-5">
+                        <div className="bg-white  h-fit lg:h-[12rem] dark:bg-neutral-800 rounded-md shadow-md p-5">
                             <h3 className="text-4xl text-lemon-20 font-play font-bold">Web Maintenance</h3>
                             <p className="text-lg text-neutral-600 font-mono dark:text-neutral-300 py-3">I provide ongoing website maintenance to keep your site running smoothly and efficiently.</p>
                         </div>
                     </Roll>
                     <Roll >
-                        <div className="bg-white  h-[12rem] dark:bg-neutral-800 rounded-md shadow-md p-5">
+                        <div className="bg-white   h-fit lg:h-[12rem] dark:bg-neutral-800 rounded-md shadow-md p-5">
                             <h3 className="text-4xl text-lemon-20 font-play font-bold">Custom Solutions</h3>
                             <p className="text-lg text-neutral-600 font-mono dark:text-neutral-300 py-3">I create custom solutions to meet your unique needs and help you achieve your business goals.</p>
                         </div>
