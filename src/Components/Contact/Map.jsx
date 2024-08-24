@@ -6,7 +6,7 @@ const Map = () => {
             <JackInTheBox>
             <section className="text-gray-600 body-font relative">
                 <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
-                    <div className="w-full lg:w-full md:w-1/2 h-[50vh] bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                    <div className="w-full  h-[50vh] bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                         <iframe width="100%" height="100%" className="absolute inset-0" frameBorder="0" title="map" marginHeight="0" marginWidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d913.0610753017829!2d90.44485661208113!3d23.7386660970444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b81f5efb5485%3A0xb04fa4f1d0446414!2z4Kas4Ka-4Kav4Ka84Kak4KeB4KayIOCmruCmvifgpq7gp4HgprAg4Kac4Ka-4Kau4KeHIOCmruCmuOCmnOCmv-Cmpg!5e0!3m2!1sbn!2sbd!4v1724254804770!5m2!1sbn!2sbd"
                         ></iframe>
                         <div className="hidden lg:block">
