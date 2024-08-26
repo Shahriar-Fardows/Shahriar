@@ -9,7 +9,7 @@ const Part_2 = () => {
     console.log(team);
 
     useEffect(() => {
-        fetch('https://shahriar-server.vercel.app/users')
+        fetch('shahriar-server-production.up.railway.app/users')
             .then(res => res.json())
             .then(data => {
                 setTeam(data);

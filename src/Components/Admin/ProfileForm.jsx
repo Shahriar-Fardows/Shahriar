@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import Swal from 'sweetalert2';
 
 const ProfileForm = () => {
@@ -54,7 +54,7 @@ const ProfileForm = () => {
           img: imgData.data.url,
         };
 
-        const dbResponse = await fetch('https://shahriar-server.vercel.app/addUser', {
+        const dbResponse = await fetch('shahriar-server-production.up.railway.app/addUser', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

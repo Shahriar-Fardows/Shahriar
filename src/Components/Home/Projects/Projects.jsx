@@ -9,7 +9,7 @@ const Projects = () => {
 
     useEffect(() => {
 
-        fetch('https://shahriar-server.vercel.app/projects')
+        fetch('shahriar-server-production.up.railway.app/projects')
             .then(res => res.json())
             .then(data => {
                 setProjects(data);

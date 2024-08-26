@@ -1,16 +1,15 @@
 import { useEffect, useState } from "react";
 import { Fade } from "react-awesome-reveal";
-import { Link } from "react-router-dom";
 import { CgWebsite } from "react-icons/cg";
-import { FaGithub } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Team = () => {
 
     const [team, setTeam] = useState([]);
 
     useEffect(() => {
-        fetch('https://shahriar-server.vercel.app/users')
+        fetch('shahriar-server-production.up.railway.app/users')
             .then(res => res.json())
             .then(data => {
                 setTeam(data);
