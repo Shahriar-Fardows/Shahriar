@@ -1,0 +1,38 @@
+[
+    {
+      "_id": "66c3d53888f1ce7b389c0661",
+      "logo": "https://i.ibb.co/k6qzc0W/logo-image-Dx9kd67-P.jpg",
+      "projectName": "SWITCH UP",
+      "description": "Your one-stop destination for high-quality tires and auto parts.",
+      "projectType": "Full Stack",
+      "workingType": "Team Project",
+      "liveLink": "https://carpartsweb.netlify.app/"
+    },
+    {
+      "_id": "66c3d53888f1ce7b389c0662",
+      "logo": "https://i.ibb.co/3Y1Rp1R/logo-CBSZUXSf.png",
+      "projectName": "Teachfosys",
+      "description": "A digital agency offering web and software development services.",
+      "projectType": "Full Stack",
+      "workingType": "Team Project",
+      "liveLink": "https://teachfosys.com"
+    },
+    {
+      "_id": "66c3d53888f1ce7b389c0663",
+      "logo": "https://i.ibb.co/Ny6RpTc/Screenshot-2024-08-20-051504-removebg-preview.png",
+      "projectName": "Edo",
+      "description": "Edo makes ad posting quick and easy for all your needs.",
+      "projectType": "Full Stack",
+      "workingType": "Team Project",
+      "liveLink": "https://edo-list.netlify.app/"
+    },
+    {
+      "_id": "66c87faa045b2a46c2e55376",
+      "liveLink": "https://drogon-news-84cce.firebaseapp.com/",
+      "workingType": "Personal Project",
+      "projectName": "Dragon News",
+      "projectType": "Front-end",
+      "description": " Journalism Without Fear or Favour",
+      "logo": "https://i.ibb.co/BBjy0XT/logo-Au5y674-N.png"
+    }
+  ]

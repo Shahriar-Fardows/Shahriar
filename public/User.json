@@ -1,0 +1,52 @@
+[
+    {
+      "_id": "66c464ae88f1ce7b38bbdf38",
+      "name": "Ferdous",
+      "title": "Back End Developer",
+      "description": "Hemal is a backend expert specializing in server-side technologies and database management, ensuring robust and scalable web applications.",
+      "github": "https://github.com/hemal1024",
+      "linkedin": "https://www.linkedin.com/in/hemal1024/",
+      "website": "https://hemal-backend.dev/",
+      "img": "https://i.ibb.co/prLLzg6/hemel.png"
+    },
+    {
+      "_id": "66c464ae88f1ce7b38bbdf39",
+      "name": "Yeasin",
+      "title": "Front End Developer",
+      "description": "Yeasin, a 21-year-old Full Stack Developer from Dhaka, specializes in TypeScript and Next.js. He’s been freelancing for a year and loves working on innovative projects.",
+      "github": "https://github.com/Mdkawsarislam2002/",
+      "linkedin": "https://www.linkedin.com/in/yeasin2002/",
+      "website": "https://yeasin2002.vercel.app/",
+      "img": "https://i.ibb.co/MsFpSSx/yasin.png"
+    },
+    {
+      "_id": "66c464ae88f1ce7b38bbdf3a",
+      "name": "Hasan",
+      "title": "Front End Developer",
+      "description": "Hasan is a skilled MERN Stack developer passionate about open-source contributions and enhancing his collaborative skills.",
+      "github": "https://github.com/mdhasankha-1023",
+      "linkedin": "https://www.linkedin.com/in/md-hasan-kha-7a130129b/",
+      "website": "https://reactive-ferdous.netlify.app/",
+      "img": "https://i.ibb.co/pxyFFLF/hasan.png"
+    },
+    {
+      "_id": "66c464ae88f1ce7b38bbdf3b",
+      "name": "Sayed",
+      "title": "Back End Developer",
+      "description": "Sayed is a MERN stack developer with solid JavaScript, React, Node.js, and MongoDB skills. He’s keen to apply his knowledge to new web development challenges.",
+      "github": "https://github.com/Dev-as-sayed",
+      "linkedin": "https://www.linkedin.com/in/a-m-sayed",
+      "website": "https://amsayed.netlify.app",
+      "img": "https://i.ibb.co/NS9c6jJ/profile-pic-2.png"
+    },
+    {
+      "_id": "66c658d73b40fec3f0a1a4f4",
+      "img": "https://i.ibb.co/7V1qxhr/profile-pic.png",
+      "website": "https://www.linkedin.com/in/sakif-hridoy/",
+      "linkedin": "https://www.linkedin.com/in/sakif-hridoy/",
+      "github": "https://github.com/sakif-hridoy",
+      "description": "a self-taught programmer, collaborates with me on Node.js, Express, MongoDB, and React. He also builds web/mobile apps, learning Laravel, Python, and Docker.",
+      "title": "MERN Stack Developer",
+      "name": "Sakif"
+    }
+  ]

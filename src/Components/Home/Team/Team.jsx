@@ -9,7 +9,7 @@ const Team = () => {
     const [team, setTeam] = useState([]);
 
     useEffect(() => {
-        fetch('shahriar-server-production.up.railway.app/users')
+        fetch('User.json')
             .then(res => res.json())
             .then(data => {
                 setTeam(data);

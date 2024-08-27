@@ -9,7 +9,7 @@ const Part_1 = () => {
 
     useEffect(() => {
 
-        fetch('shahriar-server-production.up.railway.app/projects')
+        fetch('Projects.json')
             .then(res => res.json())
             .then(data => {
                 setProjects(data);

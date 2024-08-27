@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 const Projects = () => {
 
     const [projects, setProjects] = useState([]);
+    console.log(projects);
 
     useEffect(() => {
-
-        fetch('shahriar-server-production.up.railway.app/projects')
+        fetch('Projects.json')
             .then(res => res.json())
             .then(data => {
                 setProjects(data);
@@ -36,7 +36,7 @@ const Projects = () => {
                                 <div className="relative   bg-white  h-auto  dark:bg-neutral-800 rounded-md shadow-md p-5">
                                     <div className=" flex justify-between">
                                         <img className=" h-[50px] object-cover rounded-md" src={project.logo} alt="" />
-                                        <div className="flex gap-2 absolute top-0 right-0  border rounded-tr-lg rounded-bl-lg px-4  ">
+                                        <div className="glass flex gap-2 absolute top-0 right-0  border rounded-tr-lg rounded-bl-lg px-4  ">
                                             <h2 className="text-base leading-10	 text-lemon-20 font-play font-bold">{project.projectType}</h2>
                                             <h3 className="text-base leading-10	  text-lemon-20 font-play font-bold">{project.workingType}</h3>
                                         </div>
