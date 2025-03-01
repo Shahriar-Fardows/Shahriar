@@ -4,7 +4,7 @@ import { Fade,  Rotate } from "react-awesome-reveal";
 
 const Experience = () => {
     // Replace the 'startYear' with the year you started coding
-    const startYear = 2022;
+    const startYear = 2023;
     const [yearsOfExperience, setYearsOfExperience] = useState(0);
 
     useEffect(() => {
@@ -15,7 +15,7 @@ const Experience = () => {
     const infoList = [
         {
             title: 'Web Developer',
-            description: '2+ years creating user-friendly, visually appealing websites.',
+            description: '1+ years creating user-friendly, visually appealing websites.',
         },
         {
             title: 'Tech Enthusiast',
