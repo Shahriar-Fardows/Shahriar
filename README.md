@@ -5,7 +5,7 @@
 
 - 🔭 I'm currently delving into  **Node.js, Express.js, MongoDB, and React for web app development. I utilize React and Firebase, and for UI design, I leverage Bootstrap, Sass, Tailwind CSS, and Material UI.**
 
-- 🌱 I’m currently learning **Next.js, Typescript, socket.IO, Docker**
+- 🌱 I’m currently learning **socket.IO, Docker, three.js**
 
 - 💬 Ask me about **JavaScript, React.js**
 
