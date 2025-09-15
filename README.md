@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">Hi 👋, I'm Shahriar Fardows</h1>
+<h3 align="center">I’m a front-end web developer From Dhaka, Bangladesh, also familiar with the Back End. I convert coffee into Code ✌️</h3>
 
-## Getting Started
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=shahriar-fardows&label=Profile%20views&color=0e75b6&style=flat" alt="shahriar-fardows" /> </p>
 
-First, run the development server:
+- 🔭 I'm currently delving into  **Node.js, Express.js, MongoDB, and React for web app development. I utilize React and Firebase, and for UI design, I leverage Bootstrap, Sass, Tailwind CSS, and Material UI.**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🌱 I’m currently learning **Next.js, Typescript, socket.IO, Docker**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 💬 Ask me about **JavaScript, React.js**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 📫 How to reach me **shahriarfardows@gmail.com**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+<h3 align="left">Specialized In [ Front End ]</h3>
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p align="left">
+<img align="center" src="https://github.com/Shahriar-Fardows/Shahriar-Fardows/assets/121999068/c3ca6d2d-cf89-49ac-a7de-f7d7f7a3a1d2" alt="#" height="40" width="40" />
+<img align="center" src="https://github.com/Shahriar-Fardows/Shahriar-Fardows/assets/121999068/3ea29fa6-f99c-410c-95ae-5f7c7a0cc55a" alt="#" height="40" width="40" />
+<img align="center" src="https://github.com/Shahriar-Fardows/Shahriar-Fardows/assets/121999068/910d3410-1149-4988-b96f-077dbb881a4c" alt="#" height="40" width="40" />
+<img align="center" src="https://github.com/Shahriar-Fardows/Shahriar-Fardows/assets/121999068/21659b6f-8052-4bd5-9904-48cbb48db467" alt="#" height="40" width="40" />
+</p>
+<h3 align="left">Familiar with [ Back End ]</h3>
+<p align="left">
+ <img align="center" src="https://github.com/Shahriar-Fardows/Shahriar-Fardows/assets/121999068/fdc23483-7ba3-496e-9179-62f471e0c266" alt="#" height="40" width="40" />
+ <img align="center" src="https://github.com/Shahriar-Fardows/Shahriar-Fardows/assets/121999068/bba12e51-2bb9-46e4-912e-93e07500ac37" alt="#" height="40" width="40" />
+ <img align="center" src="https://github.com/Shahriar-Fardows/Shahriar-Fardows/assets/121999068/6b6c7752-d923-4711-90b3-d4c759c8169c" alt="MongoDB" height="40" width="40" />
+  </p>
+<h3 align="left">Other</h3>
+<p align="left"> 
+ <img align="center" src="https://github.com/Shahriar-Fardows/Shahriar-Fardows/assets/121999068/a6ac10f3-528f-4e01-975a-84cca64d3e63" alt="#" height="40" width="40" />
+ <img align="center" src="https://github.com/Shahriar-Fardows/Shahriar-Fardows/assets/121999068/0946c4e3-d258-4bd9-a8d7-0659dbf069a6" alt="#" height="40" width="40" />
+ <img align="center" src="https://i.ibb.co/CmkQPsz/Screenshot-2024-04-09-182729.png" alt="MongoDB" height="40" width="40" />
+  </p>
+  <h3 align="left">Connect with me:</h3>
+<p align="left">
+<a  href="https://linkedin.com/in/https://www.linkedin.com/in/shahriar-fardows-8280b6256/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/shahriar-fardows-8280b6256/" height="30" width="40" /></a>
+<a href="https://fb.com/https://www.facebook.com/profile.php?id=100085970036969" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/profile.php?id=100085970036969" height="30" width="40" /></a>
+</p>
